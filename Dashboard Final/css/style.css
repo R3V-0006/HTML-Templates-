@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, h1, h2, h3, h4, h5 {
+  font-family: "Raleway", sans-serif
+}
+.notification {
+  text-decoration: none;
+  padding: 15px 15px;
+  position: relative;
+  display: inline-block;
+}
+.notification .badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  padding: 5px 10px;
+  font-weight: 1000;
+  color: red;
+}
